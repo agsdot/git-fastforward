@@ -1,0 +1,51 @@
+First iteration of the git-fastforward readme (org mode style)
+
+To be refined later. But here's a data dump.
+
+To Fast Forward one's git practice and knowledge use these tools:
+
+git-extras -- github.com/tj/git-extras
+  - git delete-branch is super useful, it allows quick and easy removal of local AND remote branches (whether they be on github or bitbucket)
+
+ungit
+
+git webui
+
+vim fugitive, git blame is neat
+
+Git GUI's
+
+Mac
+
+gitx by rowanj on github *
+  - gitup
+  - tower2
+
+Cross platform
+  - smartgit *
+  - git webui
+  - ungit (requires node js)
+  - gitkraken
+  - sourcetree
+
+Linux
+  - git giggle
+
+Unix / Linux (i.e. mac and linux)
+  - tig
+  - not git per se but super useful on the bash prompt to quickly discover the git status and branch status
+    - https://github.com/twolfson/sexy-bash-prompt
+
+Also git best practice
+
+  Git knowledge
+    - https://github.com/jwiegley/git-from-the-bottom-up
+
+  Git flow articles
+    - http://nvie.com/posts/a-successful-git-branching-model/
+    - https://about.gitlab.com/2014/09/29/gitlab-flow/
+
+Another thing?
+  - use useful aliases in gitconfig global
+  - setup a global gitignore for noise files
+
