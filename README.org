@@ -1,42 +1,42 @@
-First iteration of the git-fastforward readme (org mode style)
-
-To be refined later. But here's a data dump.
-
+* Git FastForward
 To Fast Forward one's git practice and knowledge use these tools:
 
-git-extras -- github.com/tj/git-extras
-  - git delete-branch is super useful, it allows quick and easy removal of local AND remote branches (whether they be on github or bitbucket)
+** Use good command line extra's
 
-ungit
+  - [[http://www.github.com/tj/git-extras][git-extras]] - made by TJ Hollowaychuk of JS and Go fame.
+    - a lot of extra super helpful git command line functions
+    - git delete-branch for example, is super useful. It allows quick and easy removal of local AND remote branches (whether they be on github or bitbucket)
+  - tig - a command line git client. Nice to visualize the branching of various development branches.
 
-git webui
+** Use good git visualization tools
 
-vim fugitive, git blame is neat
-
-Git GUI's
-
-Mac
-
-gitx by rowanj on github *
-  - gitup
-  - tower2
-
-Cross platform
-  - smartgit *
-  - git webui
+*** Cross platform
+  - smartgit
+  - [[https://www.syntevo.com/smartgit/][smartgit]]
+  - [[https://github.com/alberthier/git-webui][git-webui]]
   - ungit (requires node js)
   - gitkraken
   - sourcetree
 
-Linux
+*** Mac
+  - gitx by rowanj on github *
+  - gitup
+  - tower2
+
+*** Linux
   - git giggle
 
-Unix / Linux (i.e. mac and linux)
+*** Unix / Linux (i.e. mac and linux)
   - tig
   - not git per se but super useful on the bash prompt to quickly discover the git status and branch status
     - https://github.com/twolfson/sexy-bash-prompt
 
-Also git best practice
+*** Editor Based
+  - Magit (emacs)
+  - Fugitive (vim)
+  - Git gutter (used by similar various names in Emacs, Vim, Atom, and Sublime -- shows on the sidebar the areas of text that have been modified)
+
+** Also git best practice
 
   Git knowledge
     - https://github.com/jwiegley/git-from-the-bottom-up
@@ -45,7 +45,6 @@ Also git best practice
     - http://nvie.com/posts/a-successful-git-branching-model/
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
 
-Another thing?
+** Another thing?
   - use useful aliases in gitconfig global
   - setup a global gitignore for noise files
-
