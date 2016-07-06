@@ -3,7 +3,7 @@ To Fast Forward one's git practice and knowledge use these tools:
 
 ** Use good command line extra's
 
-  - [[http://www.github.com/tj/git-extras][git-extras]] - made by TJ Hollowaychuk of JS and Go fame.
+  - [[http://www.github.com/tj/git-extras][git-extras]]* - made by TJ Hollowaychuk of JS and Go fame.
     - a lot of extra super helpful git command line functions
     - git delete-branch for example, is super useful. It allows quick and easy removal of local AND remote branches (whether they be on github or bitbucket)
   - [[https://github.com/jonas/tig][tig]] - a command line git client. Nice to visualize the branching of various development branches.
@@ -11,28 +11,28 @@ To Fast Forward one's git practice and knowledge use these tools:
 ** Use good git visualization tools
 
 *** Cross platform
-  - [[https://www.syntevo.com/smartgit/][smartgit]]
-  - [[https://github.com/alberthier/git-webui][git-webui]]
+  - [[https://www.syntevo.com/smartgit/][smartgit]]*
+  - [[https://github.com/alberthier/git-webui][git-webui]]* - has a great remote access tool to allow team mates on the same network to view and clone your project sans git remote (e.g. github, bitbucket).
   - [[https://github.com/FredrikNoren/ungit][ungit]] (requires node js)
   - [[https://www.gitkraken.com/][gitkraken]]
   - [[https://www.sourcetreeapp.com/][sourcetree]]
 
 *** Mac
   - [[https://github.com/rowanj/gitx][gitx by rowanj]]*
-  - [[http://gitup.co/][gitup]]
+  - [[http://gitup.co/][gitup]]*
   - [[https://www.git-tower.com/][tower2]]
 
 *** Linux
-  - [[https://wiki.gnome.org/action/show/Apps/giggle][git giggle]]
+  - [[https://wiki.gnome.org/action/show/Apps/giggle][git giggle]] - great tool for seeing the history of a file. Similar to a view offered in IntelliJ.
 
 *** Unix / Linux (i.e. mac and linux)
   - tig
   - not git per se but super useful on the bash prompt to quickly discover the git status and branch status
-    - https://github.com/twolfson/sexy-bash-prompt
+    - [[https://github.com/twolfson/sexy-bash-prompt][sexy-bash-prompt]]*
 
 *** Editor Based
   - [[https://github.com/magit/magit][Magit]] (emacs)
-  - [[https://github.com/tpope/vim-fugitive][Fugitive]] (vim) - has an excellent git blame tool
+  - [[https://github.com/tpope/vim-fugitive][Fugitive]]* (vim) - has an excellent git blame tool
   - Git gutter (used by similar various names in [[https://github.com/syohex/emacs-git-gutter][Emacs]], [[https://github.com/airblade/vim-gitgutter][Vim]], [[https://github.com/atom/git-diff][Atom]], and [[https://github.com/jisaacks/GitGutter][Sublime]] -- shows on the sidebar the areas of text that have been modified)
 
 ** Also git best practice
@@ -44,6 +44,34 @@ To Fast Forward one's git practice and knowledge use these tools:
     - http://nvie.com/posts/a-successful-git-branching-model/
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
 
-** Another thing?
+** Git Remotes / Remote Software Tools
+    - github
+    - bitbucket
+    - [[https://about.gitlab.com/][gitlab]]
+    - [[https://gogs.io/][gogs]]
+    - [[https://www.gerritcodereview.com/][gerrit]]
+
+** Advanced Git
+    - git stash
+    - Interactive Rebasing (git rebase -i)
+      - squashing commits, renaming commits, reordering commits (for who knows what reason).
+    - Rebasing vs Merging
+    - git bisect - to find errors in ones code in a methodical fashion
+    - git cherry-pick
+    - git submodules and git subtree
+    - git reset --hard SHA-HASH
+      - git reflog - supposedly if you wanted to recover something lost in a reset, rebase, something gone terribly wrong, discover the SHA-HASH of interest and do something with it to recover where you were.
+
+** Really Advanced Git
+    - removing files accidentally commited to git
+      - filter-branch
+      - [[https://rtyley.github.io/bfg-repo-cleaner/][BFG Repo-Cleaner]]
+    - create ones own git bash scripts similar to git-extras.
+
+** Another thing
   - use useful aliases in the [[https://github.com/sferik/dotfiles/blob/master/gitconfig][gitconfig]]
   - setup a global [[https://github.com/sferik/dotfiles/blob/master/gitignore_global][gitignore]] for noise files
+  - These two links have some other good resources.
+    - https://github.com/stevemao/awesome-git-addons
+    - https://github.com/git-tips/tips
+  - I personally like all these resources, but the items that have an asterisk* are some of my favorites in my daily git workflow.
