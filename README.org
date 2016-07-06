@@ -6,25 +6,24 @@ To Fast Forward one's git practice and knowledge use these tools:
   - [[http://www.github.com/tj/git-extras][git-extras]] - made by TJ Hollowaychuk of JS and Go fame.
     - a lot of extra super helpful git command line functions
     - git delete-branch for example, is super useful. It allows quick and easy removal of local AND remote branches (whether they be on github or bitbucket)
-  - tig - a command line git client. Nice to visualize the branching of various development branches.
+  - [[https://github.com/jonas/tig][tig]] - a command line git client. Nice to visualize the branching of various development branches.
 
 ** Use good git visualization tools
 
 *** Cross platform
-  - smartgit
   - [[https://www.syntevo.com/smartgit/][smartgit]]
   - [[https://github.com/alberthier/git-webui][git-webui]]
-  - ungit (requires node js)
-  - gitkraken
-  - sourcetree
+  - [[https://github.com/FredrikNoren/ungit][ungit]] (requires node js)
+  - [[https://www.gitkraken.com/][gitkraken]]
+  - [[https://www.sourcetreeapp.com/][sourcetree]]
 
 *** Mac
-  - gitx by rowanj on github *
-  - gitup
-  - tower2
+  - [[https://github.com/rowanj/gitx][gitx by rowanj]]*
+  - [[http://gitup.co/][gitup]]
+  - [[https://www.git-tower.com/][tower2]]
 
 *** Linux
-  - git giggle
+  - [[https://wiki.gnome.org/action/show/Apps/giggle][git giggle]]
 
 *** Unix / Linux (i.e. mac and linux)
   - tig
@@ -32,9 +31,9 @@ To Fast Forward one's git practice and knowledge use these tools:
     - https://github.com/twolfson/sexy-bash-prompt
 
 *** Editor Based
-  - Magit (emacs)
-  - Fugitive (vim)
-  - Git gutter (used by similar various names in Emacs, Vim, Atom, and Sublime -- shows on the sidebar the areas of text that have been modified)
+  - [[https://github.com/magit/magit][Magit]] (emacs)
+  - [[https://github.com/tpope/vim-fugitive][Fugitive]] (vim) - has an excellent git blame tool
+  - Git gutter (used by similar various names in [[https://github.com/syohex/emacs-git-gutter][Emacs]], [[https://github.com/airblade/vim-gitgutter][Vim]], [[https://github.com/atom/git-diff][Atom]], and [[https://github.com/jisaacks/GitGutter][Sublime]] -- shows on the sidebar the areas of text that have been modified)
 
 ** Also git best practice
 
@@ -46,5 +45,5 @@ To Fast Forward one's git practice and knowledge use these tools:
     - https://about.gitlab.com/2014/09/29/gitlab-flow/
 
 ** Another thing?
-  - use useful aliases in gitconfig global
-  - setup a global gitignore for noise files
+  - use useful aliases in the [[https://github.com/sferik/dotfiles/blob/master/gitconfig][gitconfig]]
+  - setup a global [[https://github.com/sferik/dotfiles/blob/master/gitignore_global][gitignore]] for noise files
